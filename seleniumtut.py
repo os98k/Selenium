@@ -13,7 +13,7 @@ name = driver.find_element_by_id("name")
 
 name.send_keys("Osama Shakeel")
 
-driver.find_element_by_id("alertbtn").click()
+#driver.find_element_by_id("alertbtn").click()
 a = driver.find_element_by_id("openwindow").text
 print(a)
 
